@@ -1,0 +1,41 @@
+{
+  "appName": "Sample javascript",
+  "lang":{
+    "default":"th",
+    "locales":["th","en"],
+    "list":{
+      "th":"ไทย",
+      "en":"English"
+    }
+  },
+  "mongodb":{
+    "url": "mongodb://localhost:27017/passport",
+    "name": "sample",
+    "options":{
+      "db": {
+        "native_parser": true
+      },
+      "server": {
+        "poolSize": 20,
+        "connectTimeoutMS": 60000
+      },
+      "readPreference": "secondary",
+      "authMechanism": "SCRAM-SHA-1",
+      "auth": {
+        "authdb": "passport"
+      },
+      "mongos": true,
+      "user": "sample",
+      "pass": "samplepassword"
+    }
+  },
+  "firebase":{
+    "url": "https://sample-realtime-database.firebaseio.com/",
+    "storagePath": "/storages/sample-realtime-database-firebase-adminsdk-ftt5u-3ffc9e0d70.json"
+  },
+  "token": {
+    "accessTokenLength": 256,
+    "authorizationCodeLength": 16,
+    "expiresIn": 700000
+  }
+}

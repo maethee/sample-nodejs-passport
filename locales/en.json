@@ -1,0 +1,24 @@
+{
+	"validate": {
+		"ErrorLoginUsernameIncollect": "Please enter a valid your Username and Password",
+		"ErrorLoginUsernameInvalid": "Username Invalid.",
+		"ErrorRegisterIncollect": "validate.ErrorRegisterIncollect",
+		"ErrorRegisterUsernameAlready": "Username already exists",
+		"ErrorGetMovieTrending": "validate.ErrorGetMovieTrending",
+		"ErrorLoginPasswordInvalid": "validate.ErrorLoginPasswordInvalid",
+		"ErrorForgotUsernameInvalid": "validate.ErrorForgotUsernameInvalid",
+		"ErrorForgotUsernameIncollect": "validate.ErrorForgotUsernameIncollect",
+		"ErrorGetMovieDetail": "validate.ErrorGetMovieDetail",
+		"ErrorGetMovieNewRelease": "validate.ErrorGetMovieNewRelease",
+		"ErrorPostCreateReview": "validate.ErrorPostCreateReview",
+		"ErrorGetSearch": "validate.ErrorGetSearch",
+		"ErrorReplyReportInvalid": "validate.ErrorReplyReportInvalid",
+		"ErrorRestApi": "validate.ErrorRestApi",
+		"ErrorReplyInvalid": "validate.ErrorReplyInvalid",
+		"ErrorProfileNotAuth": "validate.ErrorProfileNotAuth",
+		"ErrorLoginFacebookIncollect": "validate.ErrorLoginFacebookIncollect",
+		"ErrorTemporaryInvalid": "validate.ErrorTemporaryInvalid",
+		"REGISTER_ALREADY_USER": "Username already to login.",
+		"LOGIN_PASSWORD_INVALID": "validate.LOGIN_PASSWORD_INVALID"
+	}
+}

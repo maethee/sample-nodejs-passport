@@ -1,0 +1,8 @@
+{
+	"TRANSLATION_ID": "Eng",
+	"validate": {
+		"ErrorLoginUsernameInvalid": "validate.ErrorLoginUsernameInvalid",
+		"REGISTER_ALREADY_USER": "Username already to login.",
+		"LOGIN_PASSWORD_INVALID": "validate.LOGIN_PASSWORD_INVALID"
+	}
+}

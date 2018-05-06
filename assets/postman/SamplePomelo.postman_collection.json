@@ -1,0 +1,193 @@
+{
+	"info": {
+		"name": "SamplePomelo",
+		"_postman_id": "ea56b896-52c9-fe58-cae4-5f5a99b215ca",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authorization for getting token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic U0FNUExFOlNBTVBMRQ=="
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "sample",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "sample",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "refresh_token",
+							"value": "dfdfdfsdfsd",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/oauth/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"oauth",
+						"token"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User token for bearer",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer NwQDCmdnBvYqReWdy31p5d4kfDteFX7zkzcg78nqfFG29id2AwvW3OG7LAyNZyrhQc9iAnfDMPbrtb60kllGpKY5R4g62CiJQyiKwGxGmDg9O7WsaoJiufX8DcDFk0Qv8yr6MhMIWCxW3SxaeaIe2iLH8t4WarRuFRwZFbf4KIrd8SjgIg6KoB6LYil1me22za31vxSFfXv5EkgtSQ77yFRr3VhKYIeq3Xx8UQcETmMXB1GLdZ30wfywUorKw5MI"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "sample",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "sample",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "refresh_token",
+							"value": "dfdfdfsdfsd",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/1/user/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"1",
+						"user",
+						"get"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic sfsdfsdf",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "Pomelo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pomelo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "sdf",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "last_name",
+							"value": "dfdfdf",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"register"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

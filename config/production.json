@@ -1,0 +1,32 @@
+{
+  "appName": "Sample javascript",
+  "lang":{
+    "default":"th",
+    "locales":["th","en"],
+    "list":{
+      "th":"ไทย",
+      "en":"English"
+    }
+  },
+  "mongodb":{
+    "url": "mongodb://xxx:27777/sample",
+    "name": "avengers",
+    "options":{
+      "db": {
+        "native_parser": true
+      },
+      "server": {
+        "poolSize": 20,
+        "connectTimeoutMS": 60000
+      },
+      "readPreference": "secondary",
+      "authMechanism": "SCRAM-SHA-1",
+      "auth": {
+        "authdb": "admin"
+      },
+      "mongos": true,
+      "user": "sample",
+      "pass": "samplepassword"
+    }
+  }
+}

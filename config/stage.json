@@ -1,0 +1,32 @@
+{
+  "appName": "Sample javascript",
+  "lang":{
+    "default":"th",
+    "locales":["th","en"],
+    "list":{
+      "th":"ไทย",
+      "en":"English"
+    }
+  },
+  "mongodb":{
+    "url": "mongodb://localhost:27017/sample",
+    "name": "sample",
+    "options":{
+      "db": {
+        "native_parser": true
+      },
+      "server": {
+        "poolSize": 20,
+        "connectTimeoutMS": 60000
+      },
+      "readPreference": "secondary",
+      "authMechanism": "SCRAM-SHA-1",
+      "auth": {
+        "authdb": "sample"
+      },
+      "mongos": true,
+      "user": "sample",
+      "pass": "samplepassword"
+    }
+  }
+}
